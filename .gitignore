@@ -1,0 +1,36 @@
+# --- Entornos y secretos ---
+.env
+*.env.local
+.venv/
+venv/
+
+# --- Artefactos de compilación y distribución ---
+dist/
+build/
+*.zip
+*.msi
+*.log
+*.tmp
+.staging-*/
+
+# --- Cachés ---
+__pycache__/
+*.pyc
+.cache/
+node_modules/
+
+# --- Bases de datos locales ---
+*.sqlite3
+*.db
+
+# --- IDE y editores ---
+.vscode/
+.idea/
+*.swp
+*.code-workspace
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db

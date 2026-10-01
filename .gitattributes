@@ -1,0 +1,7 @@
+# Normalización de saltos de línea: los scripts de Windows deben conservar CRLF.
+* text=auto
+*.cmd  text eol=crlf
+*.bat  text eol=crlf
+*.ps1  text eol=crlf working-tree-encoding=UTF-8
+*.psm1 text eol=crlf working-tree-encoding=UTF-8
+*.md   text eol=lf
